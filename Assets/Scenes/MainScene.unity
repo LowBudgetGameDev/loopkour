@@ -1351,12 +1351,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0c3d7cdb6f92e94399555b30ffb18d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxWalkSpeed: 12.5
-  groundAcceleration: 5
+  maxWalkSpeed: 18
+  groundAcceleration: 7
   groundDeceleration: 20
-  airAcceleration: 5
-  airDeceleration: 5
-  maxRunSpeed: 20
+  airAcceleration: 7
+  airDeceleration: 7
+  maxRunSpeed: 25
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
