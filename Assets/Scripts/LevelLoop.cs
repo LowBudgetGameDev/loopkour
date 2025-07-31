@@ -5,7 +5,7 @@ public class LevelLoop : MonoBehaviour
     [SerializeField] private Transform playerTransform;
     [SerializeField] private OneWayCamera playerCamera;
 
-    [SpaceAttribute]
+    [Space]
 
     [SerializeField] private Transform levelStart;
     [SerializeField] private Transform levelEnd;

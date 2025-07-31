@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class OneWayCamera : MonoBehaviour
 {
+    private float resetTimer;
+
     private float maxX;
 
     private void Start()
@@ -11,6 +13,12 @@ public class OneWayCamera : MonoBehaviour
 
     private void LateUpdate()
     {
+        if (resetTimer > 0f)
+        {
+            resetTimer -= Time.deltaTime;
+            return;
+        }
+
         float currentX = transform.position.x;
 
         if (currentX > maxX)
@@ -26,5 +34,7 @@ public class OneWayCamera : MonoBehaviour
     public void ResetCamera(Vector3 position)
     {
         maxX = position.x;
+        transform.position = position;
+        resetTimer = 0.5f;
     }
 }
