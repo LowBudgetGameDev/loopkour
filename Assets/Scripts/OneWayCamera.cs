@@ -22,4 +22,9 @@ public class OneWayCamera : MonoBehaviour
         clampedPos.x = Mathf.Max(transform.position.x, maxX);
         transform.position = clampedPos;
     }
+
+    public void ResetCamera(Vector3 position)
+    {
+        maxX = position.x;
+    }
 }
