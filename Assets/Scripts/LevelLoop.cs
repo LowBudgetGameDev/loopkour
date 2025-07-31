@@ -12,6 +12,8 @@ public class LevelLoop : MonoBehaviour
 
     private void Update()
     {
+        if (playerTransform == null) return;
+
         if (playerTransform.position.x > levelEnd.position.x)
         {
             playerTransform.position = levelStart.position;
