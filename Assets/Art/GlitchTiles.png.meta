@@ -1,37 +1,10 @@
 fileFormatVersion: 2
-guid: 8c5496912250e0043b4e27392ad21007
+guid: 3d008125ead0bcc469436ad6d45a776d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6570046173266489293
-    second: PlayerStickman_0
-  - first:
-      213: 7203175684726366390
-    second: PlayerStickman_1
-  - first:
-      213: -3376537066347698161
-    second: PlayerStickman_2
-  - first:
-      213: 2541300296955371710
-    second: PlayerStickman_3
-  - first:
-      213: -488875506410993813
-    second: PlayerStickman_4
-  - first:
-      213: -400310440995026804
-    second: PlayerStickman_5
-  - first:
-      213: -3785928755428908662
-    second: PlayerStickman_6
-  - first:
-      213: 2241344114738109567
-    second: PlayerStickman_7
-  - first:
-      213: -5890596927094352117
-    second: PlayerStickman_8
-  - first:
-      213: 6493418824555384906
-    second: PlayerStickman_9
+      213: 886157738827709560
+    second: GlitchTiles_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -140,221 +113,199 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PlayerStickman_0
+      name: GlitchTiles_0
       rect:
         serializedVersion: 2
-        x: 21
-        y: 1217
-        width: 417
-        height: 417
+        x: 0
+        y: 1654
+        width: 827
+        height: 827
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dcfa67b5f2e7d2b50800000000000000
-      internalID: 6570046173266489293
+      spriteID: 87cf9c5b4c34c4c00800000000000000
+      internalID: 886157738827709560
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerStickman_1
+      name: GlitchTiles_1
       rect:
         serializedVersion: 2
-        x: 678
-        y: 826
-        width: 86
-        height: 770
+        x: 827
+        y: 1654
+        width: 827
+        height: 827
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6b0a8d60f12d6f360800000000000000
-      internalID: 7203175684726366390
+      spriteID: 028daaf5cace0d040ab35b4d0c92eeab
+      internalID: -1298281268
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerStickman_2
+      name: GlitchTiles_2
       rect:
         serializedVersion: 2
-        x: 72
-        y: 847
-        width: 86
-        height: 269
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 1654
+        y: 1654
+        width: 827
+        height: 827
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f08e7658d612421d0800000000000000
-      internalID: -3376537066347698161
+      spriteID: 9e443a61e4b67c641b50eb71769cf9b4
+      internalID: 270102001
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerStickman_3
+      name: GlitchTiles_3
       rect:
         serializedVersion: 2
-        x: 228
-        y: 847
-        width: 86
-        height: 269
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 0
+        y: 827
+        width: 827
+        height: 827
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: eb0ae9bd723844320800000000000000
-      internalID: 2541300296955371710
+      spriteID: 3ae9f0ba9196a5540a5b0f8c77b3e330
+      internalID: -1501522471
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerStickman_4
+      name: GlitchTiles_4
       rect:
         serializedVersion: 2
-        x: 72
-        y: 544
-        width: 86
-        height: 269
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 827
+        y: 827
+        width: 827
+        height: 827
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b67cbfc215a2739f0800000000000000
-      internalID: -488875506410993813
+      spriteID: c8cc3e70a4b524b4b8b2a139ea31bd10
+      internalID: 982100479
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerStickman_5
+      name: GlitchTiles_5
       rect:
         serializedVersion: 2
-        x: 228
-        y: 544
-        width: 86
-        height: 269
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 1654
+        y: 827
+        width: 827
+        height: 827
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c888c9c56cfc17af0800000000000000
-      internalID: -400310440995026804
+      spriteID: 0c40e44effd2c4243bce288ba5a05acb
+      internalID: 943215450
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerStickman_6
+      name: GlitchTiles_6
       rect:
         serializedVersion: 2
-        x: 412
-        y: 389
-        width: 86
-        height: 358
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 0
+        y: 0
+        width: 827
+        height: 827
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a8129bb0bdda57bc0800000000000000
-      internalID: -3785928755428908662
+      spriteID: a1a1d755458124b448d7ae4bd6ab662b
+      internalID: 431170863
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerStickman_7
+      name: GlitchTiles_7
       rect:
         serializedVersion: 2
-        x: 573
-        y: 391
-        width: 85
-        height: 358
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 827
+        y: 0
+        width: 827
+        height: 827
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f7c9062e89ada1f10800000000000000
-      internalID: 2241344114738109567
+      spriteID: 6f91852a65b6de0479be1b2e2d982022
+      internalID: -601995455
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerStickman_8
+      name: GlitchTiles_8
       rect:
         serializedVersion: 2
-        x: 412
-        y: 18
-        width: 86
-        height: 358
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 1654
+        y: 0
+        width: 827
+        height: 827
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b079885fd45604ea0800000000000000
-      internalID: -5890596927094352117
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlayerStickman_9
-      rect:
-        serializedVersion: 2
-        x: 573
-        y: 18
-        width: 85
-        height: 358
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a40557f64024d1a50800000000000000
-      internalID: 6493418824555384906
+      spriteID: b4b0dd2bb4cbf1745930233e9b24ea54
+      internalID: -267441900
       vertices: []
       indices: 
       edges: []
@@ -363,7 +314,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a0f4ab6a8b89c234487b1b2331599cee
+    spriteID: e2a51076cd87897458f3c32a79cf7cff
     internalID: 0
     vertices: []
     indices: 
@@ -373,16 +324,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PlayerStickman_0: 6570046173266489293
-      PlayerStickman_1: 7203175684726366390
-      PlayerStickman_2: -3376537066347698161
-      PlayerStickman_3: 2541300296955371710
-      PlayerStickman_4: -488875506410993813
-      PlayerStickman_5: -400310440995026804
-      PlayerStickman_6: -3785928755428908662
-      PlayerStickman_7: 2241344114738109567
-      PlayerStickman_8: -5890596927094352117
-      PlayerStickman_9: 6493418824555384906
+      GlitchTiles_0: 886157738827709560
+      GlitchTiles_1: -1298281268
+      GlitchTiles_2: 270102001
+      GlitchTiles_3: -1501522471
+      GlitchTiles_4: 982100479
+      GlitchTiles_5: 943215450
+      GlitchTiles_6: 431170863
+      GlitchTiles_7: -601995455
+      GlitchTiles_8: -267441900
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

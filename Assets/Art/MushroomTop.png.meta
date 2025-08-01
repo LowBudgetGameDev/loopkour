@@ -1,37 +1,10 @@
 fileFormatVersion: 2
-guid: 8c5496912250e0043b4e27392ad21007
+guid: 81254b862afb75f4594be00c46233d4f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6570046173266489293
-    second: PlayerStickman_0
-  - first:
-      213: 7203175684726366390
-    second: PlayerStickman_1
-  - first:
-      213: -3376537066347698161
-    second: PlayerStickman_2
-  - first:
-      213: 2541300296955371710
-    second: PlayerStickman_3
-  - first:
-      213: -488875506410993813
-    second: PlayerStickman_4
-  - first:
-      213: -400310440995026804
-    second: PlayerStickman_5
-  - first:
-      213: -3785928755428908662
-    second: PlayerStickman_6
-  - first:
-      213: 2241344114738109567
-    second: PlayerStickman_7
-  - first:
-      213: -5890596927094352117
-    second: PlayerStickman_8
-  - first:
-      213: 6493418824555384906
-    second: PlayerStickman_9
+      213: -6434575280851723385
+    second: MushroomTop_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -140,221 +113,199 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PlayerStickman_0
+      name: MushroomTop_0
       rect:
         serializedVersion: 2
-        x: 21
-        y: 1217
-        width: 417
-        height: 417
+        x: 0
+        y: 1654
+        width: 827
+        height: 827
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dcfa67b5f2e7d2b50800000000000000
-      internalID: 6570046173266489293
+      spriteID: 78bd258bfdbc3b6a0800000000000000
+      internalID: -6434575280851723385
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerStickman_1
+      name: MushroomTop_1
       rect:
         serializedVersion: 2
-        x: 678
-        y: 826
-        width: 86
-        height: 770
+        x: 827
+        y: 1654
+        width: 827
+        height: 827
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6b0a8d60f12d6f360800000000000000
-      internalID: 7203175684726366390
+      spriteID: a400d1b1cefcedb43889921f7a049c54
+      internalID: -1270897930
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerStickman_2
+      name: MushroomTop_2
       rect:
         serializedVersion: 2
-        x: 72
-        y: 847
-        width: 86
-        height: 269
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 1654
+        y: 1654
+        width: 827
+        height: 827
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f08e7658d612421d0800000000000000
-      internalID: -3376537066347698161
+      spriteID: 1bfdad1b25d26fb44b4ef98c343281ff
+      internalID: -1190581848
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerStickman_3
+      name: MushroomTop_3
       rect:
         serializedVersion: 2
-        x: 228
-        y: 847
-        width: 86
-        height: 269
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 0
+        y: 827
+        width: 827
+        height: 827
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: eb0ae9bd723844320800000000000000
-      internalID: 2541300296955371710
+      spriteID: 7f5ccbb9d7058cd43aa4d632c8006be7
+      internalID: 1066249397
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerStickman_4
+      name: MushroomTop_4
       rect:
         serializedVersion: 2
-        x: 72
-        y: 544
-        width: 86
-        height: 269
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 827
+        y: 827
+        width: 827
+        height: 827
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b67cbfc215a2739f0800000000000000
-      internalID: -488875506410993813
+      spriteID: f2b17f94318148b48b28bb63c5288b9a
+      internalID: -1935199820
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerStickman_5
+      name: MushroomTop_5
       rect:
         serializedVersion: 2
-        x: 228
-        y: 544
-        width: 86
-        height: 269
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 1654
+        y: 827
+        width: 827
+        height: 827
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c888c9c56cfc17af0800000000000000
-      internalID: -400310440995026804
+      spriteID: c8fe2ca74e23c79439f16f9815696e72
+      internalID: 927559774
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerStickman_6
+      name: MushroomTop_6
       rect:
         serializedVersion: 2
-        x: 412
-        y: 389
-        width: 86
-        height: 358
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 0
+        y: 0
+        width: 827
+        height: 827
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a8129bb0bdda57bc0800000000000000
-      internalID: -3785928755428908662
+      spriteID: cfbd0121c1558b0409fa48ec2574a9c1
+      internalID: 2009955922
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerStickman_7
+      name: MushroomTop_7
       rect:
         serializedVersion: 2
-        x: 573
-        y: 391
-        width: 85
-        height: 358
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 827
+        y: 0
+        width: 827
+        height: 827
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f7c9062e89ada1f10800000000000000
-      internalID: 2241344114738109567
+      spriteID: 65516fdbc92fe7e4cad99d54d9e9d22e
+      internalID: -2113703581
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerStickman_8
+      name: MushroomTop_8
       rect:
         serializedVersion: 2
-        x: 412
-        y: 18
-        width: 86
-        height: 358
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 1654
+        y: 0
+        width: 827
+        height: 827
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b079885fd45604ea0800000000000000
-      internalID: -5890596927094352117
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlayerStickman_9
-      rect:
-        serializedVersion: 2
-        x: 573
-        y: 18
-        width: 85
-        height: 358
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a40557f64024d1a50800000000000000
-      internalID: 6493418824555384906
+      spriteID: 82584b4a35067bd40a6928d2938b7c5c
+      internalID: 1009540618
       vertices: []
       indices: 
       edges: []
@@ -363,7 +314,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a0f4ab6a8b89c234487b1b2331599cee
+    spriteID: fa26cd155595d6a4a8925329a8dc074f
     internalID: 0
     vertices: []
     indices: 
@@ -373,16 +324,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PlayerStickman_0: 6570046173266489293
-      PlayerStickman_1: 7203175684726366390
-      PlayerStickman_2: -3376537066347698161
-      PlayerStickman_3: 2541300296955371710
-      PlayerStickman_4: -488875506410993813
-      PlayerStickman_5: -400310440995026804
-      PlayerStickman_6: -3785928755428908662
-      PlayerStickman_7: 2241344114738109567
-      PlayerStickman_8: -5890596927094352117
-      PlayerStickman_9: 6493418824555384906
+      MushroomTop_0: -6434575280851723385
+      MushroomTop_1: -1270897930
+      MushroomTop_2: -1190581848
+      MushroomTop_3: 1066249397
+      MushroomTop_4: -1935199820
+      MushroomTop_5: 927559774
+      MushroomTop_6: 2009955922
+      MushroomTop_7: -2113703581
+      MushroomTop_8: 1009540618
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

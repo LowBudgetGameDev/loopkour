@@ -1,37 +1,10 @@
 fileFormatVersion: 2
-guid: 8c5496912250e0043b4e27392ad21007
+guid: e287592d4f508d24d94e0ad2231f7af5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6570046173266489293
-    second: PlayerStickman_0
-  - first:
-      213: 7203175684726366390
-    second: PlayerStickman_1
-  - first:
-      213: -3376537066347698161
-    second: PlayerStickman_2
-  - first:
-      213: 2541300296955371710
-    second: PlayerStickman_3
-  - first:
-      213: -488875506410993813
-    second: PlayerStickman_4
-  - first:
-      213: -400310440995026804
-    second: PlayerStickman_5
-  - first:
-      213: -3785928755428908662
-    second: PlayerStickman_6
-  - first:
-      213: 2241344114738109567
-    second: PlayerStickman_7
-  - first:
-      213: -5890596927094352117
-    second: PlayerStickman_8
-  - first:
-      213: 6493418824555384906
-    second: PlayerStickman_9
+      213: -6777141397313348846
+    second: MetalTiles_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -140,221 +113,199 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PlayerStickman_0
+      name: MetalTiles_0
       rect:
         serializedVersion: 2
-        x: 21
-        y: 1217
-        width: 417
-        height: 417
+        x: 0
+        y: 1654
+        width: 827
+        height: 827
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dcfa67b5f2e7d2b50800000000000000
-      internalID: 6570046173266489293
+      spriteID: 21b1b845ec1c2f1a0800000000000000
+      internalID: -6777141397313348846
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerStickman_1
+      name: MetalTiles_1
       rect:
         serializedVersion: 2
-        x: 678
-        y: 826
-        width: 86
-        height: 770
+        x: 827
+        y: 1654
+        width: 827
+        height: 827
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6b0a8d60f12d6f360800000000000000
-      internalID: 7203175684726366390
+      spriteID: 44c29ee9254e82842bb8e1a7005879b2
+      internalID: -1187893332
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerStickman_2
+      name: MetalTiles_2
       rect:
         serializedVersion: 2
-        x: 72
-        y: 847
-        width: 86
-        height: 269
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 1654
+        y: 1654
+        width: 827
+        height: 827
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f08e7658d612421d0800000000000000
-      internalID: -3376537066347698161
+      spriteID: 5b66f050bc9023f4e8172de1fb0cf763
+      internalID: 917364787
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerStickman_3
+      name: MetalTiles_3
       rect:
         serializedVersion: 2
-        x: 228
-        y: 847
-        width: 86
-        height: 269
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 0
+        y: 827
+        width: 827
+        height: 827
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: eb0ae9bd723844320800000000000000
-      internalID: 2541300296955371710
+      spriteID: 2ac6fc5cf49bd5b42a9108728d1549f9
+      internalID: -1142914833
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerStickman_4
+      name: MetalTiles_4
       rect:
         serializedVersion: 2
-        x: 72
-        y: 544
-        width: 86
-        height: 269
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 827
+        y: 827
+        width: 827
+        height: 827
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b67cbfc215a2739f0800000000000000
-      internalID: -488875506410993813
+      spriteID: 9567524fdd4aeec419139b6934432bfc
+      internalID: -186215018
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerStickman_5
+      name: MetalTiles_5
       rect:
         serializedVersion: 2
-        x: 228
-        y: 544
-        width: 86
-        height: 269
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 1654
+        y: 827
+        width: 827
+        height: 827
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c888c9c56cfc17af0800000000000000
-      internalID: -400310440995026804
+      spriteID: b3aa676d8ab05344e9bb0c52f334c8be
+      internalID: 864643278
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerStickman_6
+      name: MetalTiles_6
       rect:
         serializedVersion: 2
-        x: 412
-        y: 389
-        width: 86
-        height: 358
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 0
+        y: 0
+        width: 827
+        height: 827
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a8129bb0bdda57bc0800000000000000
-      internalID: -3785928755428908662
+      spriteID: dbac0d144620cba489784ccca4fd830f
+      internalID: 630086279
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerStickman_7
+      name: MetalTiles_7
       rect:
         serializedVersion: 2
-        x: 573
-        y: 391
-        width: 85
-        height: 358
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 827
+        y: 0
+        width: 827
+        height: 827
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f7c9062e89ada1f10800000000000000
-      internalID: 2241344114738109567
+      spriteID: 078902c1cc2394e42ab30cda6b78ffe6
+      internalID: 888620704
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerStickman_8
+      name: MetalTiles_8
       rect:
         serializedVersion: 2
-        x: 412
-        y: 18
-        width: 86
-        height: 358
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 1654
+        y: 0
+        width: 827
+        height: 827
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b079885fd45604ea0800000000000000
-      internalID: -5890596927094352117
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlayerStickman_9
-      rect:
-        serializedVersion: 2
-        x: 573
-        y: 18
-        width: 85
-        height: 358
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a40557f64024d1a50800000000000000
-      internalID: 6493418824555384906
+      spriteID: ff4ea35b4fa6cea4d8165aadfac55762
+      internalID: -852963727
       vertices: []
       indices: 
       edges: []
@@ -363,7 +314,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a0f4ab6a8b89c234487b1b2331599cee
+    spriteID: 4df9ff9f588f90c47bb79602e5d86a8f
     internalID: 0
     vertices: []
     indices: 
@@ -373,16 +324,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PlayerStickman_0: 6570046173266489293
-      PlayerStickman_1: 7203175684726366390
-      PlayerStickman_2: -3376537066347698161
-      PlayerStickman_3: 2541300296955371710
-      PlayerStickman_4: -488875506410993813
-      PlayerStickman_5: -400310440995026804
-      PlayerStickman_6: -3785928755428908662
-      PlayerStickman_7: 2241344114738109567
-      PlayerStickman_8: -5890596927094352117
-      PlayerStickman_9: 6493418824555384906
+      MetalTiles_0: -6777141397313348846
+      MetalTiles_1: -1187893332
+      MetalTiles_2: 917364787
+      MetalTiles_3: -1142914833
+      MetalTiles_4: -186215018
+      MetalTiles_5: 864643278
+      MetalTiles_6: 630086279
+      MetalTiles_7: 888620704
+      MetalTiles_8: -852963727
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

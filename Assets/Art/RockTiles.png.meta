@@ -1,37 +1,10 @@
 fileFormatVersion: 2
-guid: 8c5496912250e0043b4e27392ad21007
+guid: 7558e666f6c3deb46a05417be120169d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6570046173266489293
-    second: PlayerStickman_0
-  - first:
-      213: 7203175684726366390
-    second: PlayerStickman_1
-  - first:
-      213: -3376537066347698161
-    second: PlayerStickman_2
-  - first:
-      213: 2541300296955371710
-    second: PlayerStickman_3
-  - first:
-      213: -488875506410993813
-    second: PlayerStickman_4
-  - first:
-      213: -400310440995026804
-    second: PlayerStickman_5
-  - first:
-      213: -3785928755428908662
-    second: PlayerStickman_6
-  - first:
-      213: 2241344114738109567
-    second: PlayerStickman_7
-  - first:
-      213: -5890596927094352117
-    second: PlayerStickman_8
-  - first:
-      213: 6493418824555384906
-    second: PlayerStickman_9
+      213: -4584004820551761176
+    second: RockTiles_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -140,221 +113,199 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PlayerStickman_0
+      name: RockTiles_0
       rect:
         serializedVersion: 2
-        x: 21
-        y: 1217
-        width: 417
-        height: 417
+        x: 0
+        y: 1654
+        width: 827
+        height: 827
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dcfa67b5f2e7d2b50800000000000000
-      internalID: 6570046173266489293
+      spriteID: 8e2855e17e75260c0800000000000000
+      internalID: -4584004820551761176
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerStickman_1
+      name: RockTiles_1
       rect:
         serializedVersion: 2
-        x: 678
-        y: 826
-        width: 86
-        height: 770
+        x: 827
+        y: 1654
+        width: 827
+        height: 827
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6b0a8d60f12d6f360800000000000000
-      internalID: 7203175684726366390
+      spriteID: e578347fe3054dd4db8bac5c73fc9fa8
+      internalID: 1023382102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerStickman_2
+      name: RockTiles_2
       rect:
         serializedVersion: 2
-        x: 72
-        y: 847
-        width: 86
-        height: 269
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 1654
+        y: 1654
+        width: 827
+        height: 827
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f08e7658d612421d0800000000000000
-      internalID: -3376537066347698161
+      spriteID: 4f0bcb55917eb9e49a3acf441c58f8c5
+      internalID: 563603313
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerStickman_3
+      name: RockTiles_3
       rect:
         serializedVersion: 2
-        x: 228
-        y: 847
-        width: 86
-        height: 269
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 0
+        y: 827
+        width: 827
+        height: 827
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: eb0ae9bd723844320800000000000000
-      internalID: 2541300296955371710
+      spriteID: ce2060904f676244a83359a8a03fb789
+      internalID: 513467248
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerStickman_4
+      name: RockTiles_4
       rect:
         serializedVersion: 2
-        x: 72
-        y: 544
-        width: 86
-        height: 269
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 827
+        y: 827
+        width: 827
+        height: 827
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b67cbfc215a2739f0800000000000000
-      internalID: -488875506410993813
+      spriteID: beba61db66a97d04c9aa5efc79c5ce41
+      internalID: 230968898
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerStickman_5
+      name: RockTiles_5
       rect:
         serializedVersion: 2
-        x: 228
-        y: 544
-        width: 86
-        height: 269
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 1654
+        y: 827
+        width: 827
+        height: 827
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c888c9c56cfc17af0800000000000000
-      internalID: -400310440995026804
+      spriteID: e2717f7749d0aae40968fba754b9361e
+      internalID: -2097566585
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerStickman_6
+      name: RockTiles_6
       rect:
         serializedVersion: 2
-        x: 412
-        y: 389
-        width: 86
-        height: 358
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 0
+        y: 0
+        width: 827
+        height: 827
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a8129bb0bdda57bc0800000000000000
-      internalID: -3785928755428908662
+      spriteID: bfbd8472b35a45e48bac1a98c9ded37b
+      internalID: -526339200
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerStickman_7
+      name: RockTiles_7
       rect:
         serializedVersion: 2
-        x: 573
-        y: 391
-        width: 85
-        height: 358
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 827
+        y: 0
+        width: 827
+        height: 827
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f7c9062e89ada1f10800000000000000
-      internalID: 2241344114738109567
+      spriteID: e35d147ffb39f6b41af5a027565a2120
+      internalID: -1215406863
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerStickman_8
+      name: RockTiles_8
       rect:
         serializedVersion: 2
-        x: 412
-        y: 18
-        width: 86
-        height: 358
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        x: 1654
+        y: 0
+        width: 827
+        height: 827
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b079885fd45604ea0800000000000000
-      internalID: -5890596927094352117
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlayerStickman_9
-      rect:
-        serializedVersion: 2
-        x: 573
-        y: 18
-        width: 85
-        height: 358
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a40557f64024d1a50800000000000000
-      internalID: 6493418824555384906
+      spriteID: 8fb6972f52bbc944cb3cb24120787156
+      internalID: -1986287901
       vertices: []
       indices: 
       edges: []
@@ -363,7 +314,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a0f4ab6a8b89c234487b1b2331599cee
+    spriteID: c4d5aeedba5c09547a641b781e9fa0c1
     internalID: 0
     vertices: []
     indices: 
@@ -373,16 +324,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PlayerStickman_0: 6570046173266489293
-      PlayerStickman_1: 7203175684726366390
-      PlayerStickman_2: -3376537066347698161
-      PlayerStickman_3: 2541300296955371710
-      PlayerStickman_4: -488875506410993813
-      PlayerStickman_5: -400310440995026804
-      PlayerStickman_6: -3785928755428908662
-      PlayerStickman_7: 2241344114738109567
-      PlayerStickman_8: -5890596927094352117
-      PlayerStickman_9: 6493418824555384906
+      RockTiles_0: -4584004820551761176
+      RockTiles_1: 1023382102
+      RockTiles_2: 563603313
+      RockTiles_3: 513467248
+      RockTiles_4: 230968898
+      RockTiles_5: -2097566585
+      RockTiles_6: -526339200
+      RockTiles_7: -1215406863
+      RockTiles_8: -1986287901
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
