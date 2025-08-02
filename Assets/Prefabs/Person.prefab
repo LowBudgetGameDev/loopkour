@@ -1069,7 +1069,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerTransform: {fileID: 0}
   maxIdleDistanceX: 8
-  followDistanceX: 5
+  followDistanceX: 12
   movementSpeed: 10
   groundLayer:
     serializedVersion: 2

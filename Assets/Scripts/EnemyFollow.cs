@@ -94,11 +94,11 @@ public class EnemyFollow : MonoBehaviour
 
     private void Follow()
     {
-        if (playerTransform.position.x - transform.position.x > 0.01)
+        if (playerTransform.position.x - transform.position.x > 0.5)
         {
             rigidbody2D.linearVelocityX = movementSpeed;
         }
-        else if (playerTransform.position.x - transform.position.x < -0.01)
+        else if (playerTransform.position.x - transform.position.x < -0.5)
         {
             rigidbody2D.linearVelocityX = -movementSpeed;
         }
@@ -106,5 +106,8 @@ public class EnemyFollow : MonoBehaviour
         {
             rigidbody2D.linearVelocityX = 0f;
         }
+
+        float rotationAngle = rigidbody2D.linearVelocityX > 0 ? 0 : 180;
+        transform.eulerAngles = new Vector3(0f, rotationAngle, 0f);
     }
 }
