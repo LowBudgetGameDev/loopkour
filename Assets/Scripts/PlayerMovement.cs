@@ -72,7 +72,7 @@ public class PlayerMovement : MonoBehaviour
     // Collision Check Variables
     private RaycastHit2D groundHit;
     private RaycastHit2D headHit;
-    private bool isGrounded;
+    public bool isGrounded { get; private set; } // This is so that the animations can access this information
     private bool bumpedHead;
 
     // Jump Variables
