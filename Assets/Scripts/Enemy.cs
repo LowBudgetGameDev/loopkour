@@ -35,12 +35,10 @@ public class Enemy : MonoBehaviour
         if (!groundOnLeft)
         {
             rigidbody2D.linearVelocityX = movementSpeed;
-            transform.Rotate(0f, 180f, 0f);
         }
         else if (!groundOnRight)
         {
             rigidbody2D.linearVelocityX = -movementSpeed;
-            transform.Rotate(0f, -180f, 0f);
         }
 
         Vector2 leftSidePos = new Vector2(collider2D.bounds.min.x, collider2D.bounds.center.y);
@@ -52,12 +50,13 @@ public class Enemy : MonoBehaviour
         if (wallOnLeft)
         {
             rigidbody2D.linearVelocityX = movementSpeed;
-            transform.Rotate(0f, 180f, 0f);
         }
         else if (wallOnRight)
         {
             rigidbody2D.linearVelocityX = -movementSpeed;
-            transform.Rotate(0f, -180f, 0f);
         }
+
+        float rotationAngle = rigidbody2D.linearVelocityX > 0 ? 0 : 180;
+        transform.eulerAngles = new Vector3(0f, rotationAngle, 0f);
     }
 }
