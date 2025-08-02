@@ -922,9 +922,9 @@ GameObject:
   - component: {fileID: 8796553701591974966}
   - component: {fileID: 8234746150409046431}
   - component: {fileID: 1439537702971135600}
-  - component: {fileID: 8250815613343220357}
   - component: {fileID: 9140955675573048326}
   - component: {fileID: 2617341634451718689}
+  - component: {fileID: 8540546080245291864}
   m_Layer: 7
   m_Name: Person
   m_TagString: ButtonPressable
@@ -997,22 +997,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &8250815613343220357
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8397030152891426825}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c731b0afac1ca394ebf8f38e5da24351, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movementSpeed: 10
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 64
 --- !u!61 &9140955675573048326
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1071,3 +1055,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8b4a2af333708b419ce64b67f8ead1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8540546080245291864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8397030152891426825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 142cb409a81b7864f81bead7f75a092d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTransform: {fileID: 0}
+  maxIdleDistanceX: 8
+  followDistanceX: 5
+  movementSpeed: 10
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64

@@ -114,7 +114,7 @@ Transform:
   m_GameObject: {fileID: 8450775335699563759}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 272, y: 15.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -180,8 +180,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToOpen: {fileID: 0}
-  buttonPressable:
-    serializedVersion: 2
-    m_Bits: 512
   pressedSprite: {fileID: -9000188618666376746, guid: 63ca3d13ab967da4185123a7a62b5d3a, type: 3}
   spriteRenderer: {fileID: 5880988554729945436}
