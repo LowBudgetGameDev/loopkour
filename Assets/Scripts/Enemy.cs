@@ -11,16 +11,30 @@ public class Enemy : MonoBehaviour
 
     private float floorCheckDist = 0.02f;
 
+    // This only exists for the moving platforms
+    // Idc how bad this is I need this done
+    private bool isMovingRight;
+
     private void Awake()
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
         collider2D = GetComponent<Collider2D>();
 
         rigidbody2D.linearVelocityX = movementSpeed;
+        isMovingRight = true;
     }
 
     private void FixedUpdate()
     {
+        if (isMovingRight)
+        {
+            rigidbody2D.linearVelocityX = movementSpeed;
+        }
+        else
+        {
+            rigidbody2D.linearVelocityX = -movementSpeed;
+        }
+
         GroundCheck();
     }
 
@@ -35,10 +49,12 @@ public class Enemy : MonoBehaviour
         if (!groundOnLeft)
         {
             rigidbody2D.linearVelocityX = movementSpeed;
+            isMovingRight = true;
         }
         else if (!groundOnRight)
         {
             rigidbody2D.linearVelocityX = -movementSpeed;
+            isMovingRight = false;
         }
 
         Vector2 leftSidePos = new Vector2(collider2D.bounds.min.x, collider2D.bounds.center.y);
@@ -50,10 +66,12 @@ public class Enemy : MonoBehaviour
         if (wallOnLeft)
         {
             rigidbody2D.linearVelocityX = movementSpeed;
+            isMovingRight = true;
         }
         else if (wallOnRight)
         {
             rigidbody2D.linearVelocityX = -movementSpeed;
+            isMovingRight = false;
         }
 
         float rotationAngle = rigidbody2D.linearVelocityX > 0 ? 0 : 180;
