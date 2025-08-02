@@ -7,5 +7,10 @@ public class SecretExit : MonoBehaviour
     {
         // TODO add actual logic when the player reaches the exit
         print("Exit found.");
+
+        FunctionTimer.Create(() =>
+        {
+            GameSceneManager.NextScene();
+        }, 1f);
     }
 }
