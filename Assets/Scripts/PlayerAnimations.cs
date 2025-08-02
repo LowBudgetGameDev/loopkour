@@ -34,28 +34,28 @@ public class PlayerAnimations : MonoBehaviour
             animator.SetBool("IsRunning", false);
         }
 
-        if (rigidbody2D.linearVelocityY > 0f && !playerMovement.isGrounded && !inAir)
-        {
-            animator.SetTrigger("Jump");
-            inAir = true;
-        }
+        //if (rigidbody2D.linearVelocityY > 0f && !playerMovement.isGrounded && !inAir)
+        //{
+        //    animator.SetTrigger("Jump");
+        //    inAir = true;
+        //}
 
-        if (rigidbody2D.linearVelocityY < 0f && !playerMovement.isGrounded)
-        {
-            animator.SetTrigger("Fall");
-            inAir = true;
-        }
+        //if (rigidbody2D.linearVelocityY < 0f && !playerMovement.isGrounded)
+        //{
+        //    animator.SetTrigger("Fall");
+        //    inAir = true;
+        //}
 
-        if (rigidbody2D.linearVelocityY == 0f && !playerMovement.isGrounded)
-        {
-            animator.SetTrigger("Midair");
-            inAir = true;
-        }
+        //if (rigidbody2D.linearVelocityY == 0f && !playerMovement.isGrounded)
+        //{
+        //    animator.SetTrigger("Midair");
+        //    inAir = true;
+        //}
 
-        if (rigidbody2D.linearVelocityY == 0f && playerMovement.isGrounded && inAir)
-        {
-            animator.SetTrigger("Land");
-            inAir = false;
-        }
+        //if (rigidbody2D.linearVelocityY == 0f && playerMovement.isGrounded && inAir)
+        //{
+        //    animator.SetTrigger("Land");
+        //    inAir = false;
+        //}
     }
 }
