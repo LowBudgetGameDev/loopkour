@@ -35,10 +35,29 @@ public class Enemy : MonoBehaviour
         if (!groundOnLeft)
         {
             rigidbody2D.linearVelocityX = movementSpeed;
+            transform.Rotate(0f, 180f, 0f);
         }
         else if (!groundOnRight)
         {
             rigidbody2D.linearVelocityX = -movementSpeed;
+            transform.Rotate(0f, -180f, 0f);
+        }
+
+        Vector2 leftSidePos = new Vector2(collider2D.bounds.min.x, collider2D.bounds.center.y);
+        Vector2 rightSidePos = new Vector2(collider2D.bounds.max.x, collider2D.bounds.center.y);
+
+        bool wallOnLeft = Physics2D.Raycast(leftSidePos, Vector2.left, floorCheckDist, groundLayer);
+        bool wallOnRight = Physics2D.Raycast(rightSidePos, Vector2.right, floorCheckDist, groundLayer);
+
+        if (wallOnLeft)
+        {
+            rigidbody2D.linearVelocityX = movementSpeed;
+            transform.Rotate(0f, 180f, 0f);
+        }
+        else if (wallOnRight)
+        {
+            rigidbody2D.linearVelocityX = -movementSpeed;
+            transform.Rotate(0f, -180f, 0f);
         }
     }
 }
