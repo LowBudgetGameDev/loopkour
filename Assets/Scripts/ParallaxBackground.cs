@@ -26,7 +26,7 @@ public class ParallaxBackground : MonoBehaviour
         transform.position += deltaMovement * parallaxEffectultiplier;
         lastCameraPosition = cameraTransform.position;
 
-        if (cameraTransform.position.x - transform.position.x >= textureUnitSizeX)
+        if (Mathf.Abs(cameraTransform.position.x - transform.position.x) >= textureUnitSizeX)
         {
             float offsetX = (cameraTransform.position.x - transform.position.x) % textureUnitSizeX;
 
