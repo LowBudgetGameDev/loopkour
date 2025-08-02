@@ -19,7 +19,9 @@ public class Laser : MonoBehaviour
 
     private void Update()
     {
-        RaycastHit2D raycastHit = Physics2D.BoxCast(transform.position, new Vector2(0.75f, 0.05f), 0f, -transform.up, 1000f, groundLayer);
+        Vector2 boxSize = transform.eulerAngles.z == 0 ? new Vector2(0.75f, 0.05f) : new Vector2(0.05f, 0.75f); // There will only ever be 0 and 90 degrees so this is good enough
+
+        RaycastHit2D raycastHit = Physics2D.BoxCast(transform.position, boxSize, 0f, -transform.up, 1000f, groundLayer);
 
         laserSpriteRenderer.size = new Vector2(1f, raycastHit.distance - 0.06f);
         laserCollider.size = new Vector2(0.5f, raycastHit.distance - 0.06f);
