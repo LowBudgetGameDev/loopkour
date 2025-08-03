@@ -18,5 +18,6 @@ public class PlayerDeath : MonoBehaviour
         }, 3f);
 
         SoundManager.Instance.PlaySoundType(SoundManager.SoundType.Death);
+        CinemachineShake.Instance.ShakeCamera(2f, 0.25f);
     }
 }

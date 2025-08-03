@@ -8,6 +8,7 @@ public class Mine : MonoBehaviour
     {
         SoundManager.Instance.PlaySoundType(SoundManager.SoundType.Explosion);
         Instantiate(explodeParticles, transform.position, Quaternion.identity);
+        CinemachineShake.Instance.ShakeCamera(5f, 0.15f);
         Destroy(gameObject);
     }
 }
