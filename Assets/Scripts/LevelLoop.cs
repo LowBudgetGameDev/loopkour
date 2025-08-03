@@ -10,7 +10,7 @@ public class LevelLoop : MonoBehaviour
     [SerializeField] private Transform levelStart;
     [SerializeField] private Transform levelEnd;
 
-    private int numLoops;
+    private int numLoops = 0;
 
     private void Update()
     {
@@ -33,6 +33,7 @@ public class LevelLoop : MonoBehaviour
     {
         playerTransform.position = levelStart.position;
         playerCamera.ResetCamera(levelStart.position);
+        GlitchEffect.Instance.GlitchScreen(1f);
         if (isError) SoundManager.Instance.PlaySound(SoundManager.Sound.Error);
     }
 }
