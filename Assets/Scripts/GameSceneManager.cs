@@ -5,8 +5,13 @@ public class GameSceneManager : MonoBehaviour
 {
     public enum Scene
     {
-        TestScene,
-        Level1
+        MainMenu,
+        Level1,
+        Level2,
+        Level3,
+        Level4,
+        Level5,
+        Ending
     }
 
     public static void ReloadScene()
