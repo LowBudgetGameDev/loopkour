@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 606f8d43d75e61b43b73688fe01584b2
+guid: 9a295606399f4274c9b9a81fec5e7d17
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3935699900121514421
-    second: ForestBackground_1_0
+      213: 8732294798330571180
+    second: CaveBackground_1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ForestBackground_1_0
+      name: CaveBackground_1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5b18849f43a6e9630800000000000000
-      internalID: 3935699900121514421
+      spriteID: ca92c787ad75f2970800000000000000
+      internalID: 8732294798330571180
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 8008c50c1da4535488717ad31840b962
+    spriteID: 472425a6fe738fc4a88f6426f7ede6b9
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ForestBackground_1_0: 3935699900121514421
+      CaveBackground_1_0: 8732294798330571180
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

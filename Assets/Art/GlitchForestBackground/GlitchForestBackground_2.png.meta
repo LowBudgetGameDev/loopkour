@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 606f8d43d75e61b43b73688fe01584b2
+guid: 7ef4b4f2500798a4581f489fe8e6f37a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3935699900121514421
-    second: ForestBackground_1_0
+      213: -280327028495326768
+    second: GlitchForestBackground_2_0
+  - first:
+      213: 7451037655004024562
+    second: GlitchForestBackground_2_1
+  - first:
+      213: 7130265057223482797
+    second: GlitchForestBackground_2_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +119,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ForestBackground_1_0
+      name: GlitchForestBackground_2_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 6400
-        height: 3600
+        width: 350
+        height: 2212
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5b18849f43a6e9630800000000000000
-      internalID: 3935699900121514421
+      spriteID: 0d168958d041c1cf0800000000000000
+      internalID: -280327028495326768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlitchForestBackground_2_1
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 0
+        width: 2517
+        height: 3197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe039a1547676760800000000000000
+      internalID: 7451037655004024562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlitchForestBackground_2_2
+      rect:
+        serializedVersion: 2
+        x: 5066
+        y: 0
+        width: 785
+        height: 2741
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad9f22ba4ac3f260800000000000000
+      internalID: 7130265057223482797
       vertices: []
       indices: 
       edges: []
@@ -138,7 +188,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 8008c50c1da4535488717ad31840b962
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +198,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ForestBackground_1_0: 3935699900121514421
+      GlitchForestBackground_2_0: -280327028495326768
+      GlitchForestBackground_2_1: 7451037655004024562
+      GlitchForestBackground_2_2: 7130265057223482797
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

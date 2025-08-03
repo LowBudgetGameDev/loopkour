@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 606f8d43d75e61b43b73688fe01584b2
+guid: 92b26284e84f0fd4c8aa74646f0366e9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3935699900121514421
-    second: ForestBackground_1_0
+      213: -5673079503942554921
+    second: DeadForestBackground_1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ForestBackground_1_0
+      name: DeadForestBackground_1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5b18849f43a6e9630800000000000000
-      internalID: 3935699900121514421
+      spriteID: 7da64f89f3c2541b0800000000000000
+      internalID: -5673079503942554921
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 8008c50c1da4535488717ad31840b962
+    spriteID: 4d51ad9ea223f8940b733959c4d1712a
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ForestBackground_1_0: 3935699900121514421
+      DeadForestBackground_1_0: -5673079503942554921
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
