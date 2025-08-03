@@ -18,8 +18,9 @@ public class LevelLoop : MonoBehaviour
 
         if (playerTransform.position.x > levelEnd.position.x)
         {
-            Loop();
+            Loop(false);
             numLoops++;
+            SoundManager.Instance.PlaySound(SoundManager.Sound.Glitch);
         }
     }
 
@@ -28,9 +29,10 @@ public class LevelLoop : MonoBehaviour
         return numLoops;
     }
 
-    public void Loop()
+    public void Loop(bool isError = true)
     {
         playerTransform.position = levelStart.position;
         playerCamera.ResetCamera(levelStart.position);
+        if (isError) SoundManager.Instance.PlaySound(SoundManager.Sound.Error);
     }
 }

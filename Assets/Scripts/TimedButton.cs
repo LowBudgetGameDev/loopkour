@@ -15,11 +15,13 @@ public class TimedButton : MonoBehaviour
         {
             objectToOpen.SetActive(false);
             spriteRenderer.sprite = pressedSprite;
+            SoundManager.Instance.PlaySound(SoundManager.Sound.GateOpen);
 
             FunctionTimer.Create(() =>
             {
                 objectToOpen.SetActive(true);
                 spriteRenderer.sprite = unpressedSprite;
+                SoundManager.Instance.PlaySound(SoundManager.Sound.GateClose);
 
             }, timeTillClose);
         }

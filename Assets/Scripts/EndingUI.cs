@@ -10,6 +10,7 @@ public class EndingUI : MonoBehaviour
         mainMenuButton.onClick.AddListener(() =>
         {
             GameSceneManager.ChangeScene(GameSceneManager.Scene.MainMenu);
+            SoundManager.Instance.PlaySound(SoundManager.Sound.ButtonPress);
         });
     }
 }

@@ -107,13 +107,14 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        runIsHeld = Input.GetKey(KeyCode.LeftShift);
+        runIsHeld = false; // No running in this game but im too lazy to remove it
         movement = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         jumpWasPressed = Input.GetKeyDown(KeyCode.Space);
         jumpWasReleased = Input.GetKeyUp(KeyCode.Space);
 
         CountTimers();
         JumpChecks();
+        WalkSound();
     }
 
     private void FixedUpdate()
@@ -273,6 +274,8 @@ public class PlayerMovement : MonoBehaviour
         jumpBufferTimer = 0f;
         this.numberOfJumpsUsed += numberOfJumpsUsed;
         verticalVelocity = initialJumpVelocity;
+
+        SoundManager.Instance.PlaySound(SoundManager.Sound.Jump);
     }
 
     private void Jump()
@@ -423,4 +426,20 @@ public class PlayerMovement : MonoBehaviour
     }
 
     #endregion
+
+    private float walkTimerMax = 0.25f;
+    private float walkTimer;
+
+    private void WalkSound()
+    {
+        if (!isGrounded || !(Mathf.Abs(rigidbody2D.linearVelocityX) > 0.1f)) return;
+
+        walkTimer -= Time.deltaTime;
+
+        if (walkTimer < 0f)
+        {
+            SoundManager.Instance.PlaySoundType(SoundManager.SoundType.Walk);
+            walkTimer += walkTimerMax;
+        }
+    }
 }

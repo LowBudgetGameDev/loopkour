@@ -13,6 +13,7 @@ public class InteractableButton : MonoBehaviour
         {
             Destroy(objectToOpen);
             spriteRenderer.sprite = pressedSprite;
+            SoundManager.Instance.PlaySound(SoundManager.Sound.GateOpen);
         }
     }
 }

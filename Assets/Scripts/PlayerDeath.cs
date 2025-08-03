@@ -16,5 +16,7 @@ public class PlayerDeath : MonoBehaviour
         {
             GameSceneManager.ReloadScene();
         }, 3f);
+
+        SoundManager.Instance.PlaySoundType(SoundManager.SoundType.Death);
     }
 }
