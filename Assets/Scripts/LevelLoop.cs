@@ -33,7 +33,7 @@ public class LevelLoop : MonoBehaviour
     {
         playerTransform.position = levelStart.position;
         playerCamera.ResetCamera(levelStart.position);
-        GlitchEffect.Instance.GlitchScreen(1f);
+        GlitchEffect.Instance.GlitchScreen(3f);
         if (isError) SoundManager.Instance.PlaySound(SoundManager.Sound.Error);
     }
 }
