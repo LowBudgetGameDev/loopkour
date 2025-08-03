@@ -5,6 +5,12 @@ public class FakeSecretExit : MonoBehaviour
 {
     [SerializeField] private int numLoopsNeeded = 3;
     [SerializeField] private LevelLoop levelLoop;
+    [SerializeField] private Transform particles;
+
+    private void Awake()
+    {
+        Instantiate(particles, transform);
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

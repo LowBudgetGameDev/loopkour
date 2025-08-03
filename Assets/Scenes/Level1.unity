@@ -31633,6 +31633,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9273cf76929d397438eb3c67deeaad9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  particles: {fileID: 5107607753868192398, guid: a17f21d84eb383f498f6c851dff70b29, type: 3}
 --- !u!61 &1970949645
 BoxCollider2D:
   m_ObjectHideFlags: 0
