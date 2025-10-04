@@ -15,7 +15,7 @@ public class PlayerDeath : MonoBehaviour
         FunctionTimer.Create(() =>
         {
             GameSceneManager.ReloadScene();
-        }, 3f);
+        }, 1.5f);
 
         SoundManager.Instance.PlaySoundType(SoundManager.SoundType.Death);
         CinemachineShake.Instance.ShakeCamera(2f, 0.25f);

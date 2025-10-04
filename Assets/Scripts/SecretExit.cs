@@ -15,6 +15,6 @@ public class SecretExit : MonoBehaviour
         FunctionTimer.Create(() =>
         {
             GameSceneManager.NextScene();
-        }, 1f);
+        }, 0.25f);
     }
 }
